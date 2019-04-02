@@ -1,6 +1,6 @@
 # java-jwt-tools
 
-This is a library used to get access token(JWT) from your front end, decode it, and get user's Scopes, Groups, Roles, and Permissions information.
+This is a library currently used to get access token(JWT) from your front end, decode it, and get user's Scopes, Groups, Roles, and Permissions information.
 
 To install the library, please add dependencies to your build file:
 
@@ -9,14 +9,16 @@ To install the library, please add dependencies to your build file:
     }
 
     dependencies {
-        compile 'com.github.YangCaoModa:java-jwt-tools:v0.1.1'
+        compile 'com.github.ModaOperandi:mo-jwt-java:v0.1.0'
     }
 
 
-To use JWTDecoder and JWTGetter in your controllers, please add these packages:
+To use JWTDecoder and JWTGetter in your classes, please add these packages:
 
-	import com.modaoperandi.java.jwt.tools.JWTGetter;
-	import com.modaoperandi.java.jwt.tools.JWTDecoder;
+	import com.modaoperandi.jwt.java.JWTGetter;
+	import com.modaoperandi.jwt.java.JWTDecoder;
+
+Here is an example codes to add in your controllers:
 
 	@Autowired
 	private HttpServletRequest request;
