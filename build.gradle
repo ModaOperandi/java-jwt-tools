@@ -2,13 +2,7 @@ plugins {
     id 'java-library'
 }
 
-repositories { 
-	mavenCentral()
-	// maven {
-	// 	url "https://jitpack.io"
- //        credentials { username  'jp_am1gb3ih8jb1jq01hdtbo1q23t' }
-	// }
-}
+repositories { mavenCentral() }
 
 version = '0.1.0'
 
