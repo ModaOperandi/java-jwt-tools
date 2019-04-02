@@ -49,10 +49,10 @@ public class DecodedTokenTest {
 	}
 	
 	private String arrayToString(String[] array) {
-	    StringBuilder sb = new StringBuilder();
-	    for (String str : array) {
-	    	sb.append(str).append(" ");
-	    }
-	    return sb.toString().trim();
+		StringBuilder sb = new StringBuilder();
+		for (String str : array) {
+			sb.append(str).append(" ");
+		}
+		return sb.toString().trim();
 	}
 }
