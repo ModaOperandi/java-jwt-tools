@@ -1,6 +1,7 @@
 # java-jwt-tools
 
-This library is used to get access tokens(JWT) from your front end requests, decode JWTs, and get user's Scopes, Groups, Roles, and Permissions information.
+This library is used to get access tokens(JWT), decode JWTs, and get user's Scopes, Groups, Roles, and Permissions information.
+We use https://jitpack.io/#ModaOperandi/java-jwt-tools to publish the artifact for consumer to use
 
 To install the library, please add dependencies to your build file:
 
