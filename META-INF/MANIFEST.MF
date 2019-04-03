@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Implementation-Title: java-jwt-tools
+Implementation-Version: 0.1.0
+
